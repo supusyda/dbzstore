@@ -1,0 +1,97 @@
+#wrapper_moreInfo {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(img/bg_comics_pc.jpg);
+}
+.menu_moreInfo hover {
+  color: red;
+}
+.login_moreInfo {
+  max-width: 600px;
+  background: rgba(233, 226, 226, 0.8);
+  flex-grow: 1;
+  padding: 30px 30px 40px;
+  box-shadow: 0px 0px 17px 2px rgba(255, 255, 255, 0.8);
+  margin-top: 65px;
+}
+.header_moreInfo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: rgb(15, 14, 14);
+  /* text-align: left;
+    margin-bottom: 30px; */
+}
+.group_moreInfo {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  margin-right: 0.2em;
+}
+
+.input {
+  box-shadow: 0 0 0 1px #d9d9d9;
+  transition: all 0.2s ease-out;
+  background-color: white;
+  color: #333333;
+  border-radius: 4px;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.94em 2.8em 0.94em 0.8em;
+  word-break: normal;
+}
+.input::placeholder {
+  color: rgba(88, 85, 85, 0.8);
+}
+.group1_moreInfo {
+  display: flex;
+  justify-content: space-around;
+}
+.group2_moreInfo {
+  display: flex;
+}
+.select {
+  box-shadow: 0 0 0 1px #000000;
+  transition: all 0.2s ease-out;
+  background-color: white;
+  color: #333333;
+  border-radius: 4px;
+  display: block;
+  box-sizing: border-box;
+  width: 78%;
+  padding: 0.7em 2.8em 0.7em 0.8em;
+  word-break: normal;
+  margin-right: 0.2em;
+}
+
+.footer_moreInfo {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_moreInfo a {
+  text-decoration: none;
+  font-size: 18px;
+  padding-top: 5px;
+  color: blue;
+}
+.footer_moreInfo:hover {
+  color: red;
+}
+
+.submit {
+  background: rgb(47, 47, 194);
+  border: 1px solid #f5f5f5;
+  border-radius: 4px;
+  text-transform: uppercase;
+  padding: 10px;
+  transition: 0, 25s ease-in-out;
+  color: #0a0909;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.submit:hover {
+  background-color: rgb(83, 111, 196);
+  color: rgb(15, 14, 14);
+}
